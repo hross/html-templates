@@ -1,0 +1,96 @@
+/* reset */
+
+@font-face {
+    font-family: 'DaysRegular';
+    src: url('../fonts/Days-webfont.eot');
+    src: url('../fonts/Days-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Days-webfont.woff') format('woff'),
+         url('../fonts/Days-webfont.ttf') format('truetype'),
+         url('../fonts/Days-webfont.svg#DaysRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}	
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: white;
+  font: 13px/1.231 'lucida grande',tahoma,verdana,arial,sans-serif;
+}
+
+h1 { margin: 0pt; padding: 0pt; font-weight: normal; font-size: 16px; }
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+}
+
+/* header styles */
+
+.header { background: url('../images/header.png') repeat scroll 0% 0% rgb(0, 85, 136); height: 80px; }
+.header h1 { float: left; /*font-family: 'Volkhov';*/ font-family: 'DaysRegular'; font-size: 32px; sans-serif; padding-top: 20px; text-transform:uppercase;}
+.header h1 a { color: #fff; text-decoration: none; text-shadow: 0px 2px 3px #A0A0A0;}
+
+.header .navigation {
+	float: right;
+	padding-top: 20px;
+}
+.header .navigation a {
+	color: #fff;
+	display: block;
+}
+
+/* left column styles (main content) */
+
+.left-column {
+	width: 640px;
+    display: inline;
+    float: left;
+    margin-left: 20px;
+	line-height: 1.5em; 
+}
+
+.left-column a { font-weight: bold; }
+.left-column h2 { font-size: 22px; padding-bottom: 10px; border-bottom: 1px solid rgb(238, 238, 238); margin-top: 36px; color: rgb(102, 102, 102); font-weight: normal; }
+
+
+/* right column styles */
+
+.right-column {
+	width: 280px;
+    display: inline;
+    float: left;
+    margin-left: 20px;
+	line-height: 1.6em;
+}
+
+.right-column h2 { padding-bottom: 4px; margin: 15px 0pt 4px; border-bottom: 1px solid rgb(239, 239, 239); }
+
+
+/* footer styles */
+
+.footer {
+	padding: 10px;
+	margin-top: 20px;
+	border-top: 1px solid #999999;
+	box-shadow: 0 0 3px #999999;
+	background-color: #E9E9E9;
+	height: 80px;
+}
+
+.legal { font-size: 11px; color: rgb(102, 102, 102); text-align: center; margin-bottom: 4em; }
+
+/* generic styles */
+
+.quote { font-size: 14px; color: rgb(68, 68, 68); line-height: 1.6em; padding: 10px 15px; margin: 5px 15px 25px; background: none repeat scroll 0% 0% rgb(150, 223, 255); }
+a, a:link, a:visited, a:hover { color: rgb(59, 89, 152); text-decoration: none; }
+a:hover { text-decoration: underline; }
+h2 { font-size: 14px; margin: 0pt;}
